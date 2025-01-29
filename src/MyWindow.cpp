@@ -10,7 +10,7 @@ date: 1/15/2025
 MyWindow::MyWindow()
 {
   set_title("Basic application");
-  set_default_size(200, 200);
+  set_default_size(300, 300);
 }
 
 
