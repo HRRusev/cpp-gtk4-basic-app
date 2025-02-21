@@ -1,0 +1,3 @@
+/home/rusev/Project/Cpp/GTK/TestGit/cpp-gtk4-basic-app/build/CMakeFiles/GTK4.dir
+/home/rusev/Project/Cpp/GTK/TestGit/cpp-gtk4-basic-app/build/CMakeFiles/edit_cache.dir
+/home/rusev/Project/Cpp/GTK/TestGit/cpp-gtk4-basic-app/build/CMakeFiles/rebuild_cache.dir

@@ -20,14 +20,11 @@ add_definitions(${GTKMM_CFLAGS_OTHER})
 ADD_DEFINITIONS(${GTK4_CFLAGS_OTHER})
 
 include_directories(include)
+file(GLOB HEADER_FILE_ONLY "include/*.h")
+file(GLOB SOURCES "src/*.cpp")
 
 # Specify the source files
-add_executable(${PROJECT_NAME}
-    src/main.cpp
-    src/MyWindow.cpp
-
-    include/MyWindow.h
-)
+add_executable(${PROJECT_NAME} ${SOURCES} ${HEADER_FILE_ONLY})
 
 target_link_libraries(${PROJECT_NAME} ${GTKMM_LIBRARIES})
 
